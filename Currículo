@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Currículo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif, Oxanium;
+        }
+
+        header {
+            background-color: none;
+            text-align: center;
+            font-size: 25px;
+            color: White;
+            height: 100pt;
+        }
+
+        article {
+            background-color: #055703;
+            border: #10ff08;
+            border-radius: 9pt;
+            border-style: solid;
+            float: left;
+            padding: 61pt;
+            width: 90%;
+            height: 620pt;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .figure {
+            background-color: #10ff08;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        nav {
+            float: left;
+            width: 10%;
+            height: 761pt;
+            background-color: none;
+        }
+
+        .bloco1 {
+            background-color: #10ff08;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 45%;
+            height: 170pt;
+            padding-bottom: 10pt;
+            border: #044002;
+            border-radius: 9pt;
+            border-style: solid;
+            position: relative;
+            float: left;
+            left: 3%;
+        }
+
+        .bloco2 {
+            background-color: #10ff08;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 45%;
+            height: 170pt;
+            border: #044002;
+            border-radius: 9pt;
+            border-style: solid;
+            position: relative;
+            right: 3%;
+            float: right;
+        }
+
+        .bloco3 {
+            background-color: #10ff08;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 45%;
+            height: 170pt;
+            border: #044002;
+            border-radius: 9pt;
+            border-style: solid;
+            position: relative;
+            top: 10px;
+            left: 3%;
+            float: left;
+        }
+
+        .bloco4 {
+            background-color: #10ff08;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 45%;
+            height: 170pt;
+            border: #044002;
+            border-radius: 9pt;
+            border-style: solid;
+            position: relative;
+            right: 3%;
+            float: right;
+            top: 10px;
+        }
+
+        .bloco5 {
+            background-color: #10ff08;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 45%;
+            height: 170pt;
+            border: #044002;
+            border-radius: 9pt;
+            border-style: solid;
+            position: relative;
+            top: 20px;
+            left: 3%;
+            float: left;
+        }
+
+        .bloco6 {
+            background-color: #10ff08;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 45%;
+            height: 170pt;
+            border: #044002;
+            border-radius: 9pt;
+            border-style: solid;
+            position: relative;
+            right: 3%;
+            float: right;
+            top: 20px;
+        }
+        
+        .lista {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(https://media.giphy.com/media/dbRBclOWZ8QIU/giphy.gif);">
+    <header>
+        <br>
+        <h1 style="font-family: Oxanium;" background-color="#10ff08;">
+            Currículo do Menino Hacker Homem
+        </h1>
+    </header>
+    <br>
+    <br>
+    <nav>
+    </nav>
+    <article>
+        <div class="bloco1">
+            <h1 style="font-family: Verdana;">
+                <strong>
+                    Dados pessoais:
+                </strong>
+            </h1>
+            <hr>
+            <p style="font-size: 15pt">
+                <em>
+                    Nome completo: Nicollas Eduardo Alves.<br>Idade: 16 anos<br>Nascimento: 21/02/2004<br>
+                </em>
+            </p>
+        </div>
+        <div class="bloco2">
+            <h1 style="font-family: Verdana;">
+                <strong>
+                    Contato:
+                </strong>
+            </h1>
+            <hr>
+            <p style="font-size: 15pt;">
+                <em>
+                    Tel: (11)98370-9362.<br>E-mail: nickgenio2004@gmail.com.
+                </em>
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="bloco3">
+            <h1 style="font-family: Verdana;">
+                <strong>
+                    Objetivo:
+                </strong>
+            </h1>
+            <hr>
+            <p style="font-size: 15pt;">
+                <em>
+                    Aprimorar minhas habilidades em programação e WebDesign.
+                </em>
+            </p>
+        </div>
+        <div class="bloco4">
+            <h1 style="font-family: Verdana;">
+                 <strong>
+                     Qualidades:
+                 </strong>
+            </h1>
+            <hr>
+            <p style="font-size: 15pt">
+                 <em>
+                     <ul class="lista">
+                        <li>Trabalho em equipe.</li>
+                        <li>Didática rápida.</li>
+                        <li>Facilmente adaptável.</li>
+                     </ul>
+                 </em>
+            </p>
+        </div>
+        <div class="bloco5">
+             <h1 style="font-family: Verdana;">
+                 <strong>
+                     Formação Acadêmica:
+                 </strong>
+            </h1>
+            <hr>
+            <p style="font-size: 15pt">
+                 <em>
+                     <ul class="lista">
+                        <li>Ensino Fundamental Completo.</li>
+                        <li>Cursando 2º ano do Ensino Médio.</li>
+                        <li>Curso de Inglês - IW.</li>
+                     </ul>
+                 </em>
+            </p>
+        </div>
+        <div class="bloco6">
+             <h1 style="font-family: Verdana;">
+                 <strong>
+                     Habilidades Extras:
+                 </strong>
+            </h1>
+            <hr>
+            <p style="font-size: 15pt">
+                 <em>
+                      <ul class="lista">
+                        <li>Inglês Semi-Fluente.</li>
+                        <li>Dedicação.</li>
+                        <li>Competência revisada.</li>
+                     </ul>
+                 </em>
+            </p>
+        </div>
+    </article>
+</body>
